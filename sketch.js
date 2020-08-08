@@ -5,7 +5,7 @@ var gameOver = false;
 var grid = [];
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(600, 600);
   s = new Snake();
   food = new Food();
   frameRate(10);
